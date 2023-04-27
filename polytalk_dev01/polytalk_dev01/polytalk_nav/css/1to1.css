@@ -1,0 +1,340 @@
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.section01_1to1_smalltext {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.section01_1to1_smalltext strong {
+    color: var(--color-violet-500);
+}
+
+.section01_1to1_button {
+    background-color: var(--color-violet-500) !important;
+    color: white !important;
+    display: block;
+    margin: auto;
+    margin-bottom: 32px;
+}
+
+.section01_1to1_button_gray {
+    background-color: #f4f4f4;
+    color: #8d8d8d;
+}
+
+.section01_1to1_title {
+    text-align: center;
+}
+
+.section01_1to1 {
+    text-align: center;
+}
+
+.section01_1to1 .inner>.section_smallText {
+    text-align: left;
+}
+
+.section01_1to1_form {
+    width: 100%;
+    background-color: #fafafa;
+    border-radius: 8px;
+    margin-bottom: 48px;
+}
+
+.section01_1to1_inputBox {
+    padding-top: 36px;
+}
+
+.section01_1to1_inputBox_label {
+    display: block;
+    width: 864px;
+    margin: auto;
+    text-align: left;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.section01_1to1_inputBox input {
+    display: block;
+    width: 828px;
+    margin: auto;
+    font-size: 14px;
+    height: 60px;
+    padding-left: 36px;
+    border: 1px solid #EDDEFF;
+    border-radius: 8px;
+}
+
+.section01_1to1_inputBox_option {
+    height: 60px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.section01_1to1_inputBox_radio strong {
+    color: #9D4BE7;
+}
+
+b,
+strong,
+dt {
+    font-weight: normal !important;
+}
+
+
+.section01_1to1_inputBox_select>input {
+    appearance: auto;
+}
+
+
+.section01_1to1_inputBox_select {
+    position: relative;
+    text-align: left;
+}
+
+.section01_1to1_inputBox_select_ul {
+    margin: auto;
+    width: 864px;
+    background-color: white;
+    border: 1px solid #EAEAEA;
+    display: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
+
+.section01_1to1_inputBox_select_ul li {
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    cursor: pointer;
+}
+
+.section01_1to1_inputBox_select_textBox {
+    display: block;
+    width: 828px;
+    margin: auto;
+    font-size: 14px;
+    height: 60px;
+    padding-left: 36px;
+    border: 1px solid #EDDEFF;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    line-height: 60px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.chooseButton {
+    cursor: pointer;
+    padding-left: 108px;
+    background-color: white;
+    color: #9D4BE7;
+
+}
+
+.section01_1to1_inputBox_label {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.section01_1to1_inputBox_radio {
+    text-align: left;
+    padding-top: 18px;
+    padding-left: 108px;
+}
+
+.section01_1to1_inputBox_select_label {
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.section01_1to1_inputBox textarea {
+    resize: none;
+    width: 800px;
+    height: 8rem;
+    outline: none;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 18px;
+    border: 1px solid #EDDEFF;
+    border-radius: 8px;
+    color: #aaa;
+    font-size: 14px !important;
+
+    font: 400 16px/1.3 'Noto Sans KR', sans-serif;
+}
+
+.section01_1to1_fileBox {
+    text-align: left;
+    position: relative;
+}
+
+.section01_1to1_fileBox .section01_1to1_inputBox_radio {
+    font-size: 16px !important;
+    color: #888 !important;
+    padding-top: 0px;
+}
+
+.fileUploadButton {
+    background-color: #F0DFFF !important;
+    color: #9D4BE7 !important;
+    margin-left: 108px;
+    margin-top: 24px;
+    margin-bottom: 64px;
+}
+
+.section01_1to1_button_gray {
+    margin-left: 10px;
+}
+
+.myRadio {
+    display: inline-block;
+    width: 44px;
+    height: 22px;
+    border-radius: 50px;
+    border: 1px solid #d9d9d9;
+    position: absolute;
+    margin-left: 8px;
+
+}
+
+.myRadio_circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #F0DFFF;
+    position: absolute;
+    top: 1px;
+    left: 2px;
+}
+
+.section01_lib_pt_subNav_box{
+    text-align: left;
+}
+
+.dark_button{
+    background-color: var(--color-gray-500) !important;
+}
+/*태블릿*/
+@media (max-width : 1260px) {
+    html{
+        --margin-section-board : 90px !important;
+    }
+    #visual .inner{
+        display: block !important;
+    }
+    .section01_1to1_inputBox_select_textBox{
+        width : 90% !important;
+    }
+    .section01_1to1_inputBox > input{
+        width : 90% !important;
+    }
+    .section01_1to1_inputBox textarea{
+        width : 90% !important;
+    }
+    .section01_1to1_inputBox_label{
+        padding-left: 36px !important;
+        margin: 0 !important;
+    }
+   .section01_1to1_inputBox_select_li{
+    width: 100% !important;
+}
+
+   .section01_1to1_inputBox_select_label{
+    width: 100% !important;
+   }
+   .section01_1to1_inputBox_select_ul{
+    width: 90% !important;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+   }
+   .section01_1to1_inputBox_radio{
+    padding-left: 32px !important;
+   }
+   .fileUploadButton{
+    margin-left: 12px !important;
+   }
+}
+
+@media (max-width : 550px) {
+    .section01_lib_pt_mainBox_searchBo > form > .btn{
+        font-size: 13px;
+        padding: 12px !important;
+    }
+}
+
+
+
+
+/*모바일*/
+@media (max-width : 760px){
+    html{
+        --margin-section-board : 60px !important;
+    }
+    .program_wrap > .inner{
+        display: block !important;
+    }
+    .program_item_tit{
+        width: 100%;
+        text-align: center;
+    }
+    .program_item_tit br{
+        display: none;
+    }
+    .index_under_benner_box_button{
+        margin: auto !important;
+        width: 80% !important;
+        border-radius: 12px !important;
+        margin-top: 24px !important;
+    }
+ 
+   .dark_button{
+    font-size: 13px !important;
+   }
+    .box_title, .section_title{
+        font-size: 26px !important;
+
+    }
+   
+    .button {
+        font-size: 13px !important;
+    }
+    .section01_lib_pt_subNav_box{
+        text-align: center;
+    }
+    .section01_1to1_smalltext{
+        font-size: 13px !important;
+    }
+    .section01_1to1_inputBox_label{
+        font-size: 16px !important;
+    }
+    .section01_1to1_inputBox_label{
+        padding-left: 18px !important;
+    }
+
+    .section01_1to1_inputBox textarea{
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+    
+   .section01_1to1_inputBox_radio{
+    padding-left: 16px !important;
+   }
+   .fileUploadButton{
+    margin-left: 12px !important;
+   }
+}
+@media (max-width: 1260px) and (min-width: 481px){
+.inner {
+    width: 90% !important;
+    margin: 0 auto;
+}
+}

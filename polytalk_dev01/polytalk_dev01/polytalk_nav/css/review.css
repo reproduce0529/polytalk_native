@@ -1,0 +1,137 @@
+@import url(./main.css);
+
+.section01_review{
+    margin-bottom: 42px !important;
+}
+
+.section01_review .section_title{
+    text-align: left;
+    margin-bottom: 12px;
+    padding-top: 60px;
+}
+
+section{
+    margin-bottom: 104px !important;
+}
+
+.section_subtitle{
+    font-size: 28px;
+    text-align: center;
+}
+.review_section02{
+    text-align: center;
+}
+.review_section02 .section_title{
+    padding-top: 16px;
+}
+.review_section02_circleBox{
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+.review_section02_circle{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 1px solid #d9d9d9;
+    text-align: center;
+}
+
+.review_section02_circle_smallText{
+    font-size: 18px;
+    margin-top: 104px;
+    font-weight: 500;
+}
+
+.review_section02_circle_BigText{
+    font-size: 36px;
+    margin-top: 24px;
+    font-weight: 700;
+    color: #9D4BE7;
+}
+
+.review_section02_button{
+    background-color: #9D4BE7;
+    color: white;
+    margin-top: 32px;
+    margin-bottom: 104px;
+}
+
+.review_section02_starPointBox{
+    width: 864px;
+    margin: auto;
+    border-radius: 8px;
+    background-color: #fafafa;
+    margin-top: 80px;
+    justify-content: left !important;
+}
+.review_section02_starPointBox i{
+    color: #9D4BE7;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.review_section02_star_point{
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.stick_gray{
+    width: 420px;
+    height: 20px;
+    border-radius: 100px;
+    background-color: #eaeaea;
+    position: relative;
+}
+
+.stick_violet{
+    background-color: #9D4BE7;
+    width: 320px;
+    height: 20px;
+    border-radius: 100px;
+    position: absolute;
+    left : 0;
+
+}
+
+.review_section02_starPoint_ul
+{
+    margin-top: 8px !important;
+    margin-bottom: 8px !important; 
+}
+
+.review_section02_star_BigBox{
+    margin-left: 64px;
+    margin-right: 64px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.review_section02_starPoint_countBox i{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.review_section02_starPoint_countBox{
+    margin-left: 84px;
+}
+
+.line_y{
+    width: 1px;
+    height: 144px;
+
+    display: block;
+    background-color: #ddd;
+}
+
+.review_section02_starPoint_li{
+    font-weight: bold;
+}
+
+.section02{
+    margin-bottom: 60px;
+}
+
+#review_section03 .section_title{
+    padding-top: 32px;
+    text-align: left;
+}

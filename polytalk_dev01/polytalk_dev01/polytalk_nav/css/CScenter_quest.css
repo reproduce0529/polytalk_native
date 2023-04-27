@@ -1,0 +1,174 @@
+.section01_event_subNav_link{
+    display: block !important;
+    text-align: center;
+    width: 100%;
+    color: #8d8d8d;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 1px solid #EDDEFF;
+    margin-bottom: 48px;
+}
+
+.section01_event_subNav_link_select{
+    background-color: var(--color-violet-500);
+    color: white;
+}
+
+.section_smallText{
+    color: #888;
+}
+
+.section01_CQ_down_checkbox:checked + .section01_CQ_mainText{
+    height: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.section01_CQ_Subtitle{
+    font-size: 24px;
+    margin-bottom: 48px;
+}
+.section01_CQ_item{
+    
+    position: relative;
+}
+.section01_CQ_item_title{
+    display: block;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding-left: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.section01_CQ_mainText{
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: var(--color-violet-00);
+    padding-left: 24px;
+    transition: all 0.4s ease-in-out;;
+}
+
+.section01_CQ_downBox{
+    color: var(--color-violet-500);
+    font-size: 16px;
+    float: right;
+    margin-right: 24px;
+}
+
+
+.dark_button{
+    background-color: var(--color-gray-500) !important;
+}
+/*태블릿*/
+@media (max-width : 1260px) {
+    html{
+        --margin-section-board : 90px !important;
+    }
+    #visual .inner{
+        display: block !important;
+    }
+
+    .SeeMoreButton_lin{
+        display: block !important;
+    }
+    .section01_lib_pt_numList{
+        display: none;
+    }
+    .section01_event_mainBox_content_ul{
+        display: inline-block;
+    }
+
+    .section01_event_mainBox_content_ul > li{
+        display: inline-block;
+    }
+    .section01_lib_pt_mainBox_searchBo > form{
+        width: 90% !important;
+    }
+}
+
+@media (max-width : 550px) {
+    .section01_lib_pt_mainBox_searchBo > form > .btn{
+        font-size: 13px;
+        padding: 12px !important;
+    }
+}
+
+
+
+
+/*모바일*/
+@media (max-width : 760px){
+    html{
+        --margin-section-board : 60px !important;
+    }
+    .program_wrap > .inner{
+        display: block !important;
+    }
+    .program_item_tit{
+        width: 100%;
+        text-align: center;
+    }
+    .program_item_tit br{
+        display: none;
+    }
+    .index_under_benner_box_button{
+        margin: auto !important;
+        width: 80% !important;
+        border-radius: 12px !important;
+        margin-top: 24px !important;
+    }
+ 
+   .dark_button{
+    font-size: 13px !important;
+   }
+    .box_title, .section_title{
+        font-size: 26px !important;
+
+    }
+   
+    .section01_lib_pt_mainBox_searchBox_Input{
+        width: 40% !important;
+    }
+    .section01_lib_pt_mainBox_searchBo > form{
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+
+    .section01_CQ_item_title{
+        font-size: 13px !important;
+    }
+    .section01_CQ_item{
+        width: 100% !important;
+        margin: auto !important;
+        
+    }
+    .section01_CQ_item_title{
+        height: 45px;
+        line-height: 45px;
+        padding: 0px !important;
+        position: relative;
+        width : 100% !important;
+        display: block !important;
+        text-align: center !important;
+    }
+    .section01_CQ_downBox {
+        position: absolute;
+        top : 50%;
+        right: 0px;
+        transform: translateY(-50%) !important;
+        display: none !important;
+    }
+    .section01_CQ_mainText{
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .section01_CQ_down_checkbox:checked + .section01_CQ_mainText{
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+}

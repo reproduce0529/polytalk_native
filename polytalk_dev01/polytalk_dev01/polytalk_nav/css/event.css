@@ -1,0 +1,141 @@
+
+.section01_event_subNav_box{
+    margin-bottom: 50px;
+}
+li{
+    list-style: none;
+}
+
+.section01_event_subNav_link{
+    display: block !important;
+    text-align: center;
+    width: 100%;
+    color: #8d8d8d;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 1px solid #EDDEFF;
+    margin-bottom: 48px;
+}
+
+.section01_event_subNav_link_select{
+    background-color: var(--color-violet-500);
+    color: white;
+}
+
+.section01_event_mainBox_content{
+    text-align: center;
+}
+
+.section01_event_mainBox_content_li{
+    width: 300px;
+    display: inline-block;
+    margin: 24px;
+    border: 1px solid #ddd;
+}
+
+.section01_event_mainBox_content_TextBox{
+    height: 180px;
+    padding-top: 24px;
+}
+
+.section01_event_mainBox_content_title{
+    color: #111;
+    font-size: 20px;
+
+}
+
+.section01_event_mainBox_content_smallText{
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 88px;
+
+}
+
+.section01_event_mainBox_content_date{
+    font-size: 16px;
+} 
+
+.section01_lib_pt_mainBox_searchBo{
+    margin-bottom: 100px;
+}
+
+
+.dark_button{
+    background-color: var(--color-gray-500) !important;
+}
+/*태블릿*/
+@media (max-width : 1260px) {
+    html{
+        --margin-section-board : 90px !important;
+    }
+    #visual .inner{
+        display: block !important;
+    }
+
+    .SeeMoreButton_lin{
+        display: block !important;
+    }
+    .section01_lib_pt_numList{
+        display: none;
+    }
+    .section01_event_mainBox_content_ul{
+        display: inline-block;
+    }
+
+    .section01_event_mainBox_content_ul > li{
+        display: inline-block;
+    }
+    .section01_lib_pt_mainBox_searchBo > form{
+        width: 90% !important;
+    }
+}
+
+@media (max-width : 550px) {
+    .section01_lib_pt_mainBox_searchBo > form > .btn{
+        font-size: 13px;
+        padding: 12px !important;
+    }
+}
+
+
+
+
+/*모바일*/
+@media (max-width : 760px){
+    html{
+        --margin-section-board : 60px !important;
+    }
+    .program_wrap > .inner{
+        display: block !important;
+    }
+    .program_item_tit{
+        width: 100%;
+        text-align: center;
+    }
+    .program_item_tit br{
+        display: none;
+    }
+    .index_under_benner_box_button{
+        margin: auto !important;
+        width: 80% !important;
+        border-radius: 12px !important;
+        margin-top: 24px !important;
+    }
+ 
+   .dark_button{
+    font-size: 13px !important;
+   }
+    .box_title, .section_title{
+        font-size: 26px !important;
+
+    }
+   
+    .section01_lib_pt_mainBox_searchBox_Input{
+        width: 40% !important;
+    }
+    .section01_lib_pt_mainBox_searchBo > form{
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+
+}
